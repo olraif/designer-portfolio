@@ -493,6 +493,26 @@
                                  ]
                    },
                    {
+                       "id":  "landscape",
+                       "nav":  "Ландшафт",
+                       "kicker":  "Landscape / exterior visual",
+                       "title":  "Ландшафтный дизайн и экстерьер",
+                       "intro":  "Планировки участка, террасы, дорожки, зоны отдыха и визуальная подача пространства.",
+                       "format":  "wide",
+                       "items":  [
+                                     {
+                                         "title":  "Ландшафтная концепция участка",
+                                         "src":  "assets/series/landscape/landscape-001.png",
+                                         "original":  "C:\\Users\\Олеся\\Desktop\\референс\\ландшафтный дизайн\\ChatGPT Image 17 июн. 2026 г., 21_33_31.png"
+                                     },
+                                     {
+                                         "title":  "Планировка и визуализация участка",
+                                         "src":  "assets/series/landscape/landscape-002.png",
+                                         "original":  "C:\\Users\\Олеся\\Desktop\\референс\\ландшафтный дизайн\\ChatGPT Image 17 июн. 2026 г., 21_33_36.png"
+                                     }
+                                 ]
+                   },
+                   {
                        "id":  "fashion",
                        "nav":  "Одежда",
                        "kicker":  "Fashion visuals",
@@ -579,6 +599,26 @@
                                          "title":  "Летний десерт",
                                          "src":  "assets/series/recipes/recipe-003.png",
                                          "original":  "C:\\Users\\Олеся\\Desktop\\референс\\рецепты\\ChatGPT Image 16 июн. 2026 г., 23_00_46 (3).png"
+                                     },
+                                     {
+                                         "title":  "Ягодный пирог со щавелем",
+                                         "src":  "assets/series/recipes/recipe-004.png",
+                                         "original":  "C:\\Users\\Олеся\\Desktop\\референс\\рецепты\\ChatGPT Image 17 июн. 2026 г., 22_10_48.png"
+                                     },
+                                     {
+                                         "title":  "Пирог со щавелем и ягодой",
+                                         "src":  "assets/series/recipes/recipe-005.png",
+                                         "original":  "C:\\Users\\Олеся\\Desktop\\референс\\рецепты\\ChatGPT Image 17 июн. 2026 г., 22_17_33 (1).png"
+                                     },
+                                     {
+                                         "title":  "Разрез ягодного пирога",
+                                         "src":  "assets/series/recipes/recipe-006.png",
+                                         "original":  "C:\\Users\\Олеся\\Desktop\\референс\\рецепты\\ChatGPT Image 17 июн. 2026 г., 22_17_34 (2).png"
+                                     },
+                                     {
+                                         "title":  "Домашний ягодный пирог",
+                                         "src":  "assets/series/recipes/recipe-007.png",
+                                         "original":  "C:\\Users\\Олеся\\Desktop\\референс\\рецепты\\ChatGPT Image 17 июн. 2026 г., 22_17_34 (3).png"
                                      }
                                  ]
                    },

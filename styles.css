@@ -422,6 +422,10 @@ h1 {
   grid-auto-columns: minmax(440px, 46%);
 }
 
+.series-section[data-format="wide"] .work-rail {
+  grid-auto-columns: minmax(680px, 72%);
+}
+
 .carousel-shell {
   position: relative;
 }
@@ -488,6 +492,10 @@ h1 {
 
 .series-section[data-format="portrait"] .work-slide img {
   aspect-ratio: 3 / 4;
+}
+
+.series-section[data-format="wide"] .work-slide img {
+  aspect-ratio: 16 / 9;
 }
 
 .work-caption {
@@ -847,7 +855,8 @@ h1 {
 
   .work-rail,
   .series-section[data-format="portrait"] .work-rail,
-  .series-section[data-format="square"] .work-rail {
+  .series-section[data-format="square"] .work-rail,
+  .series-section[data-format="wide"] .work-rail {
     grid-auto-columns: minmax(280px, 86%);
     padding-left: 46px;
     padding-right: 46px;
