@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Olesya - графический дизайн и продуктовый визуал</title>
+  <meta name="description" content="Графический дизайн, SEO-визуал и карточки товаров для Ozon, Wildberries, Avito, лендингов и курсов. Премиальное портфолио дизайнера и разработчика.">
+  <meta property="og:title" content="Olesya - графический дизайн и продуктовый визуал">
+  <meta property="og:description" content="Карточки товаров, презентации, лендинги и визуальная упаковка, которую замечают, сохраняют и выбирают.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/profile/olesya-presented-hero-desktop.jpg">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand" aria-label="Olesya">
+      <span>
+        <strong>Olesya</strong>
+        <small><span>designer / </span><a class="brand-resume" href="https://olesya.repiq.ru" target="_blank" rel="noreferrer">AI developer</a></small>
+      </span>
+    </div>
+    <nav class="top-nav" aria-label="Навигация">
+      <a href="#work">Работы</a>
+      <a href="#presentations">Презентации</a>
+      <a href="#contact">Контакт</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="cover-hero">
+      <picture class="cover-picture">
+        <source media="(max-width: 640px)" srcset="assets/profile/olesya-presented-hero-mobile-mid.jpg">
+        <img class="cover-photo" src="assets/profile/olesya-presented-hero-desktop.jpg" alt="Olesya">
+      </picture>
+      <div class="cover-shade" aria-hidden="true"></div>
+      <div class="cover-copy">
+        <p class="eyebrow">Графический дизайн / SEO / продуктовый визуал</p>
+        <h1><span>Визуал,</span><span>который выбирают</span><span>и замечают</span></h1>
+        <p>Карточки товаров, контент для маркетплейсов, Avito, лендингов и курсов: упаковка, которую замечают, сохраняют и выбирают.</p>
+        <div class="hero-actions">
+          <a class="underline-link light" href="#work">Смотреть витрины</a>
+          <a class="underline-link light muted" href="#presentations">Курс Python</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="index-strip" id="work" aria-label="Разделы портфолио">
+      <p class="eyebrow">Series</p>
+      <div class="index-links" id="seriesNav"></div>
+    </section>
+
+    <div id="seriesRoot"></div>
+
+    <section class="download-section" id="mobile-app">
+      <p class="eyebrow">Mobile app</p>
+      <h2>Оформление приложения RepIQ</h2>
+      <p>Мобильное приложение, визуальная упаковка и материалы для публикации.</p>
+      <div class="download-actions">
+        <a class="download-link secondary" href="https://www.rustore.ru/catalog/app/com.olesya.tutor" target="_blank" rel="noreferrer">Посмотреть в RuStore</a>
+      </div>
+    </section>
+
+    <section class="pdf-section" id="presentations">
+      <div class="section-heading">
+        <p class="eyebrow">Python Quest</p>
+        <h2>Уроки, которые хочется открыть</h2>
+        <p>Листайте выбранные уроки прямо внутри страницы.</p>
+      </div>
+
+      <div class="pdf-layout">
+        <div class="pdf-list" id="presentationList" aria-label="Уроки курса"></div>
+        <div class="pdf-viewer">
+          <div class="pdf-toolbar">
+            <span id="pdfTitle">Урок</span>
+            <a id="pdfOpenLink" href="#" target="_blank" rel="noreferrer">Открыть PDF</a>
+          </div>
+          <iframe id="pdfFrame" title="Презентация курса Python Quest"></iframe>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <p class="eyebrow">Contact</p>
+      <h2>Соберём визуал, который замечают и выбирают</h2>
+      <div class="contact-links">
+        <a href="tel:+79603837857">+7 960 383-78-57</a>
+        <a href="https://wa.me/79603837857" target="_blank" rel="noreferrer">WhatsApp</a>
+        <a href="tg://resolve?phone=79603837857">Telegram</a>
+        <a href="https://max.ru/" target="_blank" rel="noreferrer">MAX</a>
+        <a href="https://RepIQ.ru">RepIQ.ru</a>
+      </div>
+    </section>
+  </main>
+
+  <div class="modal" id="imageModal" aria-hidden="true">
+    <div class="modal-backdrop" data-close-modal></div>
+    <article class="modal-panel" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <button class="modal-close" type="button" data-close-modal aria-label="Закрыть">x</button>
+      <button class="modal-arrow modal-prev" type="button" data-modal-prev aria-label="Предыдущая работа">‹</button>
+      <img id="modalImage" src="" alt="">
+      <button class="modal-arrow modal-next" type="button" data-modal-next aria-label="Следующая работа">›</button>
+      <footer class="modal-caption">
+        <span id="modalKicker"></span>
+        <strong id="modalTitle"></strong>
+      </footer>
+    </article>
+  </div>
+
+  <script src="portfolio-data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
