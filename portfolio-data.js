@@ -161,6 +161,46 @@
                                          "original":  "C:\\Users\\Олеся\\Desktop\\референс\\щетка пр.png"
                                      },
                                      {
+                                         "title":  "садовый бордюр кантри",
+                                         "src":  "assets/series/marketplace/market-038.png",
+                                         "original":  "C:\\Users\\Олеся\\Desktop\\референс\\бардюр пластик\\IMG_20260618_131359.png"
+                                     },
+                                     {
+                                         "title":  "садовый бордюр шаг 1",
+                                         "src":  "assets/series/marketplace/market-039.png",
+                                         "original":  "C:\\Users\\Олеся\\Desktop\\референс\\бардюр пластик\\1.png"
+                                     },
+                                     {
+                                         "title":  "садовый бордюр шаг 2",
+                                         "src":  "assets/series/marketplace/market-040.png",
+                                         "original":  "C:\\Users\\Олеся\\Desktop\\референс\\бардюр пластик\\2.png"
+                                     },
+                                     {
+                                         "title":  "садовый бордюр шаг 3",
+                                         "src":  "assets/series/marketplace/market-041.png",
+                                         "original":  "C:\\Users\\Олеся\\Desktop\\референс\\бардюр пластик\\3.png"
+                                     },
+                                     {
+                                         "title":  "садовый бордюр шаг 4",
+                                         "src":  "assets/series/marketplace/market-042.png",
+                                         "original":  "C:\\Users\\Олеся\\Desktop\\референс\\бардюр пластик\\4.png"
+                                     },
+                                     {
+                                         "title":  "садовый бордюр клумбы дорожки",
+                                         "src":  "assets/series/marketplace/market-043.png",
+                                         "original":  "C:\\Users\\Олеся\\Desktop\\референс\\бардюр пластик\\красота порядок.png"
+                                     },
+                                     {
+                                         "title":  "садовый бордюр триммер",
+                                         "src":  "assets/series/marketplace/market-044.png",
+                                         "original":  "C:\\Users\\Олеся\\Desktop\\референс\\бардюр пластик\\леска.png"
+                                     },
+                                     {
+                                         "title":  "садовый бордюр морозостойкий",
+                                         "src":  "assets/series/marketplace/market-045.png",
+                                         "original":  "C:\\Users\\Олеся\\Desktop\\референс\\бардюр пластик\\мороз.png"
+                                     },
+                                     {
                                          "title":  "бут",
                                          "src":  "assets/series/marketplace/market-001.jpg",
                                          "original":  "C:\\Users\\Олеся\\Desktop\\референс\\бут.png"
