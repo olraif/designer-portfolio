@@ -716,6 +716,11 @@
                                          "original":  "C:\\Users\\Олеся\\Desktop\\референс\\инфографика 5.png"
                                      },
                                      {
+                                         "title":  "Roblox Quest: карта курса 32 урока",
+                                         "src":  "assets/series/course-covers/roblox-quest-map.png",
+                                         "original":  "C:\\Users\\Олеся\\Desktop\\референс\\роблокс\\роблокс 32 урока.png"
+                                     },
+                                     {
                                          "title":  "lesson-01-intro",
                                          "src":  "assets/series/course-covers/course-002.jpg",
                                          "original":  "C:\\Users\\Олеся\\Documents\\New project 3\\tutor-mobile-app\\output\\training-video-intros\\lesson-01-intro.png"
@@ -808,6 +813,11 @@
                               "title":  "Урок 11. Итоговый проект",
                               "src":  "assets/presentations/python-quest-11-final-game.pdf",
                               "sizeMB":  21.4
+                          },
+                          {
+                              "title":  "Roblox Quest. Урок 1. Знакомство с Roblox Studio",
+                              "src":  "assets/presentations/repiq-roblox-quest-01.pdf",
+                              "sizeMB":  "33,2"
                           }
                       ]
 };
