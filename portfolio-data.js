@@ -211,8 +211,8 @@ window.PORTFOLIO_DATA = {
           "original": "C:\\Users\\Олеся\\Desktop\\референс\\Дизайнеры\\gemini-3-pro-image-preview-2k (nano-banana-pro)_b_нужно_поменять_ракур.png"
         },
         {
-          "title": "Расстановка мебели в линию",
-          "src": "assets/series/furniture/furniture-016.jpg",
+          "title": "??????????? ?????? ? ?????",
+          "src": "assets/series/furniture/furniture-017.jpg",
           "original": ""
         }
       ]
