@@ -69,6 +69,7 @@ function renderSeries() {
 
 function renderPresentations() {
   visiblePresentations = [
+    data.presentations.find((item) => item.title.startsWith("Roblox Quest.")),
     data.presentations.find((item) => item.src.includes("python-quest-01"))
   ].filter(Boolean);
 
