@@ -108,6 +108,42 @@ button {
   font-size: 1.22rem;
 }
 
+.coffee-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  min-height: 40px;
+  padding: 7px 14px 8px;
+  border: 1px solid rgba(170, 38, 42, 0.32);
+  border-radius: 999px;
+  background: rgba(255, 248, 232, 0.72);
+  color: var(--ink);
+  box-shadow: 0 14px 32px rgba(77, 49, 25, 0.08);
+  font-family: var(--script);
+  font-size: 1.16rem;
+  line-height: 1;
+  white-space: nowrap;
+  transition: color 0.2s ease, background 0.2s ease, border-color 0.2s ease, transform 0.2s ease;
+}
+
+.coffee-link svg {
+  width: 18px;
+  height: 18px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.75;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  flex: 0 0 auto;
+}
+
+.coffee-link:hover {
+  color: #fff8e8;
+  background: var(--red);
+  border-color: var(--red);
+  transform: translateY(-1px);
+}
 .top-nav a:hover,
 .underline-link:hover,
 .contact-links a:hover {
@@ -822,6 +858,13 @@ h1 {
   .top-nav {
     justify-content: flex-start;
     gap: 12px;
+  }
+
+  .coffee-link {
+    width: 100%;
+    max-width: 320px;
+    min-height: 38px;
+    font-size: 1.08rem;
   }
 
   .hero,
