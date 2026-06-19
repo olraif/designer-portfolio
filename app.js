@@ -1,4 +1,4 @@
-﻿const data = window.PORTFOLIO_DATA || { series: [], presentations: [], heroImages: [] };
+const data = window.PORTFOLIO_DATA || { series: [], presentations: [], heroImages: [] };
 
 const heroStrip = document.querySelector("#heroStrip");
 const seriesNav = document.querySelector("#seriesNav");
@@ -70,8 +70,7 @@ function renderSeries() {
 function renderPresentations() {
   visiblePresentations = [
     data.presentations.find((item) => item.title.startsWith("Roblox Quest.")),
-    data.presentations.find((item) => item.title.startsWith("Урок 9.")),
-    data.presentations.find((item) => item.title.startsWith("Урок 1."))
+    data.presentations.find((item) => item.src.includes("python-quest-01"))
   ].filter(Boolean);
 
   if (!visiblePresentations.length) {
