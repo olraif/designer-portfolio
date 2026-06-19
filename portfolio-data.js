@@ -196,6 +196,16 @@ window.PORTFOLIO_DATA = {
           "original": "C:\\Users\\Олеся\\Desktop\\референс\\Дизайнеры\\ChatGPT Image 16 июн. 2026 г., 14_24_13 (1) — копия.png"
         },
         {
+          "title": "Развернутая расстановка в линию",
+          "src": "assets/series/furniture/furniture-line-layout.png",
+          "original": ""
+        },
+        {
+          "title": "Расстановка мебели в линию",
+          "src": "assets/series/furniture/furniture-017.jpg",
+          "original": ""
+        },
+        {
           "title": "Вариант 10",
           "src": "assets/series/furniture/furniture-010.jpg",
           "original": "C:\\Users\\Олеся\\Desktop\\референс\\Дизайнеры\\ChatGPT Image 16 июн. 2026 г., 14_24_25 (3).png"
@@ -209,11 +219,6 @@ window.PORTFOLIO_DATA = {
           "title": "Смена ракурса и сцены",
           "src": "assets/series/furniture/furniture-018.jpg",
           "original": "C:\\Users\\Олеся\\Desktop\\референс\\Дизайнеры\\gemini-3-pro-image-preview-2k (nano-banana-pro)_b_нужно_поменять_ракур.png"
-        },
-        {
-          "title": "??????????? ?????? ? ?????",
-          "src": "assets/series/furniture/furniture-017.jpg",
-          "original": ""
         }
       ]
     },
