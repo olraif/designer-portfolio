@@ -8,6 +8,21 @@ window.PORTFOLIO_DATA = {
   ],
   "series": [
     {
+      "id": "motion-series",
+      "nav": "AI-\u0432\u0438\u0434\u0435\u043e",
+      "kicker": "Motion visual / AI-\u0432\u0438\u0434\u0435\u043e",
+      "title": "\u0416\u0438\u0432\u043e\u0439 \u0432\u0438\u0437\u0443\u0430\u043b",
+      "intro": "MP4 visual for product cards, interiors and presentations.",
+      "format": "wide",
+      "items": [
+        {
+          "title": "Motion-\u0440\u043e\u043b\u0438\u043a \u0438\u043d\u0442\u0435\u0440\u044c\u0435\u0440\u0430",
+          "src": "assets/videos/bedroom-office-motion-visual.mp4",
+          "type": "video"
+        }
+      ]
+    },
+    {
       "id": "marketplace",
       "nav": "Маркетплейсы",
       "kicker": "Ozon / Wildberries",

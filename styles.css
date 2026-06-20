@@ -508,7 +508,8 @@ h1 {
   box-shadow: var(--shadow);
 }
 
-.work-slide img {
+.work-slide img,
+.work-slide video {
   width: 100%;
   display: block;
   aspect-ratio: 4 / 3;
@@ -524,7 +525,8 @@ h1 {
   aspect-ratio: 3 / 4;
 }
 
-.series-section[data-format="wide"] .work-slide img {
+.series-section[data-format="wide"] .work-slide img,
+.series-section[data-format="wide"] .work-slide video {
   aspect-ratio: 16 / 9;
 }
 
@@ -577,44 +579,23 @@ h1 {
 
 .motion-layout {
   display: grid;
-  grid-template-columns: minmax(320px, 0.82fr) minmax(280px, 0.55fr);
-  gap: 22px;
+  grid-template-columns: minmax(280px, 680px);
+  justify-content: start;
+  gap: 0;
   align-items: stretch;
   margin-top: 18px;
 }
 
 .motion-video {
   width: 100%;
-  max-width: 760px;
-  min-height: 260px;
-  max-height: 420px;
+  max-width: 680px;
+  min-height: 230px;
+  max-height: 360px;
   object-fit: cover;
   background: #111;
   border: 1px solid var(--line);
   border-radius: 8px;
   box-shadow: var(--shadow);
-}
-
-.motion-copy {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 24px 0;
-}
-
-.motion-copy h3 {
-  margin: 0;
-  color: #8f1d17;
-  font-family: var(--script);
-  font-size: clamp(1.65rem, 2.5vw, 2.8rem);
-  font-weight: 400;
-  line-height: 0.98;
-}
-
-.motion-copy p:last-child {
-  max-width: 520px;
-  color: var(--muted);
-  font-size: 0.98rem;
 }
 
 .download-section {
@@ -626,7 +607,7 @@ h1 {
 
 .download-section h2 {
   max-width: 780px;
-  color: #8a671e;
+  color: var(--ink);
   font-size: clamp(2.2rem, 4.6vw, 4.8rem);
   line-height: 0.96;
 }
@@ -924,8 +905,8 @@ h1 {
 
   .motion-video {
     max-width: 100%;
-    min-height: 190px;
-    max-height: 300px;
+    min-height: 180px;
+    max-height: 280px;
   }
 
   .hero,

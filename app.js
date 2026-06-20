@@ -42,11 +42,20 @@ function renderNav() {
 
 function renderSeries() {
   seriesRoot.innerHTML = data.series.map((section) => {
-    const items = section.items.map((item, index) => `
-      <article class="work-slide" data-section="${section.id}" data-index="${index}" tabindex="0" role="button" aria-label="Открыть ${item.title}">
-        <img src="${item.src}" alt="${item.title}" loading="lazy">
-      </article>
-    `).join("");
+    const items = section.items.map((item, index) => {
+      const media = item.type === "video"
+        ? `<video src="${item.src}" controls muted playsinline preload="metadata"></video>`
+        : `<img src="${item.src}" alt="${item.title}" loading="lazy">`;
+      const buttonAttrs = item.type === "video"
+        ? ""
+        : `data-section="${section.id}" data-index="${index}" tabindex="0" role="button" aria-label="Open ${item.title}"`;
+
+      return `
+        <article class="work-slide" ${buttonAttrs}>
+          ${media}
+        </article>
+      `;
+    }).join("");
 
     return `
       <section class="series-section" id="${section.id}" data-format="${section.format}">
@@ -56,11 +65,11 @@ function renderSeries() {
           </div>
         </div>
         <div class="carousel-shell">
-          <button class="side-arrow side-prev" type="button" data-scroll="${section.id}" data-direction="-1" aria-label="Назад">‹</button>
+          <button class="side-arrow side-prev" type="button" data-scroll="${section.id}" data-direction="-1" aria-label="Back">&#8249;</button>
           <div class="work-rail" data-rail="${section.id}">
             ${items}
           </div>
-          <button class="side-arrow side-next" type="button" data-scroll="${section.id}" data-direction="1" aria-label="Вперёд">›</button>
+          <button class="side-arrow side-next" type="button" data-scroll="${section.id}" data-direction="1" aria-label="Forward">&#8250;</button>
         </div>
       </section>
     `;
@@ -174,7 +183,7 @@ document.addEventListener("click", (event) => {
   }
 
   const slide = event.target.closest(".work-slide");
-  if (slide) {
+  if (slide && slide.dataset.section) {
     openModal(slide.dataset.section, Number(slide.dataset.index));
   }
 
@@ -198,7 +207,7 @@ document.addEventListener("click", (event) => {
 
 document.addEventListener("keydown", (event) => {
   const slide = event.target.closest(".work-slide");
-  if (slide && (event.key === "Enter" || event.key === " ")) {
+  if (slide && slide.dataset.section && (event.key === "Enter" || event.key === " ")) {
     event.preventDefault();
     openModal(slide.dataset.section, Number(slide.dataset.index));
   }
