@@ -563,16 +563,19 @@ h1 {
 
 .download-section {
   display: grid;
-  grid-template-columns: minmax(280px, 0.7fr) auto;
-  gap: 18px 24px;
+  grid-template-columns: minmax(280px, 0.72fr) minmax(220px, 360px);
+  gap: 26px;
   align-items: end;
 }
 
-.download-section h2 {
+.download-copy h2,
+.pdf-section .section-heading h2 {
   max-width: 780px;
-  color: var(--ink);
-  font-size: clamp(2.2rem, 4.6vw, 4.8rem);
-  line-height: 0.96;
+  color: var(--red);
+  font-family: var(--script);
+  font-size: clamp(2rem, 3.7vw, 4rem);
+  font-weight: 400;
+  line-height: 0.95;
 }
 
 .download-section p:not(.eyebrow) {
@@ -581,11 +584,31 @@ h1 {
   color: var(--muted);
 }
 
+.app-preview {
+  margin: 0;
+  padding: 12px;
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  box-shadow: var(--shadow);
+}
+
+.app-preview img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  object-position: top center;
+  border-radius: 6px;
+  background: #fff;
+}
+
 .download-actions {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
-  justify-content: flex-end;
+  justify-content: flex-start;
+  margin-top: 18px;
 }
 
 .download-link {
@@ -609,6 +632,11 @@ h1 {
 
 .pdf-section {
   background: #f7edcf;
+}
+
+.pdf-section .section-heading .eyebrow,
+.download-section .eyebrow {
+  color: var(--red);
 }
 
 .pdf-list {
@@ -694,7 +722,7 @@ h1 {
 
 .contact-section h2 {
   max-width: 840px;
-  color: #8a671e;
+  color: var(--red);
   font-size: clamp(2.3rem, 4.8vw, 5rem);
   font-weight: 400;
   line-height: 0.98;
@@ -938,6 +966,10 @@ h1 {
 
   .download-link {
     width: 100%;
+  }
+
+  .app-preview {
+    max-width: 320px;
   }
 
   .side-arrow {
