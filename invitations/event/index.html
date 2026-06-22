@@ -1,0 +1,82 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Luxury event invitation</title>
+  <meta name="description" content="A premium event invitation landing page with details, program and RSVP form.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="back" href="../../" aria-label="Back">&#8592;</a>
+  <nav class="nav" aria-label="Navigation">
+    <a href="#intro">Invitation</a>
+    <a href="#details">Details</a>
+    <a href="#suite">Suite</a>
+    <a href="#rsvp">RSVP</a>
+  </nav>
+
+  <header class="hero" id="intro">
+    <div class="hero-copy">
+      <p class="eyebrow">Private Evening</p>
+      <h1>Jazz<br>Soiree</h1>
+      <p class="date">24 May 2025 &middot; 19:00</p>
+      <p class="lead">An elegant evening with live music, warm light, champagne notes and a refined printed invitation suite.</p>
+      <a class="button" href="#rsvp">Confirm attendance</a>
+    </div>
+    <figure class="hero-art">
+      <img src="../../assets/series/invitations/invitation-suite-jazz.png" alt="Jazz event invitation suite">
+    </figure>
+  </header>
+
+  <main>
+    <section class="section details" id="details">
+      <div class="section-title">
+        <p class="eyebrow">Event Details</p>
+        <h2>Atmosphere in every card</h2>
+      </div>
+      <div class="detail-grid">
+        <article><span>01</span><h3>Welcome</h3><p>19:00 ? Sparkling reception and guest photos.</p></article>
+        <article><span>02</span><h3>Music</h3><p>20:00 ? Live quartet, jazz standards and soft lounge.</p></article>
+        <article><span>03</span><h3>Dress code</h3><p>Cocktail black, cream, burgundy and gold accents.</p></article>
+      </div>
+    </section>
+
+    <section class="section suite" id="suite">
+      <div class="section-title">
+        <p class="eyebrow">Invitation Visual</p>
+        <h2>Landing page plus printed set</h2>
+      </div>
+      <div class="suite-grid">
+        <img src="../../assets/series/invitations/invitation-suite-business.png" alt="Business event invitation set">
+        <img src="../../assets/series/invitations/invitation-suite-birthday.png" alt="Birthday invitation set">
+        <img src="../../assets/series/invitations/invitation-suite-wedding-luxe.png" alt="Wedding invitation set">
+      </div>
+    </section>
+
+    <section class="section rsvp" id="rsvp">
+      <div class="rsvp-card">
+        <p class="eyebrow">RSVP</p>
+        <h2>Will you join us?</h2>
+        <form>
+          <input type="text" placeholder="Name">
+          <input type="email" placeholder="Email">
+          <select><option>Yes, I will attend</option><option>Sorry, I cannot attend</option></select>
+          <button type="submit">Send response</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <script>
+    document.querySelector('form').addEventListener('submit', function(event) {
+      event.preventDefault();
+      this.innerHTML = '<p class="thanks">Thank you. Your response has been recorded.</p>';
+    });
+  </script>
+</body>
+</html>
+

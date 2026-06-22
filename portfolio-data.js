@@ -77,17 +77,26 @@ window.PORTFOLIO_DATA = {
       "format": "wide",
       "items": [
         {
-          "title": "Wedding invitation website",
-          "src": "assets/series/invitations/invitation-suite-wedding-luxe.png",
+          "title": "Wedding invitation landing page",
+          "src": "assets/series/invitations/invitation-website-cover-wedding.png",
           "href": "invitations/wedding/"
         },
         {
-          "title": "Birthday invitation suite",
-          "src": "assets/series/invitations/invitation-suite-birthday.png"
+          "title": "Event invitation landing page",
+          "src": "assets/series/invitations/invitation-website-cover-event.png",
+          "href": "invitations/event/"
+        },
+        {
+          "title": "Wedding invitation suite",
+          "src": "assets/series/invitations/invitation-suite-wedding-luxe.png"
         },
         {
           "title": "Jazz event invitation suite",
           "src": "assets/series/invitations/invitation-suite-jazz.png"
+        },
+        {
+          "title": "Birthday invitation suite",
+          "src": "assets/series/invitations/invitation-suite-birthday.png"
         },
         {
           "title": "Business event invitation suite",
