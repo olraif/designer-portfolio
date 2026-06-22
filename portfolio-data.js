@@ -35,24 +35,16 @@ window.PORTFOLIO_DATA = {
           "src": "assets/series/branding/branding-001.png"
         },
         {
-          "title": "RepIQ hoodie mockup",
-          "src": "assets/series/branding/branding-002.png"
+          "title": "RepIQ backpack mockup",
+          "src": "assets/series/branding/branding-006.png"
         },
         {
           "title": "RepIQ t-shirt mockup",
           "src": "assets/series/branding/branding-003.png"
         },
         {
-          "title": "RepIQ lifestyle mockup",
-          "src": "assets/series/branding/branding-004.png"
-        },
-        {
-          "title": "RepIQ bottle mockup",
-          "src": "assets/series/branding/branding-005.png"
-        },
-        {
-          "title": "RepIQ backpack mockup",
-          "src": "assets/series/branding/branding-006.png"
+          "title": "Branding package system",
+          "src": "assets/series/branding/branding-009.png"
         },
         {
           "title": "RepIQ mug mockup",
@@ -61,6 +53,18 @@ window.PORTFOLIO_DATA = {
         {
           "title": "Branding collage",
           "src": "assets/series/branding/branding-008.png"
+        },
+        {
+          "title": "RepIQ bottle mockup",
+          "src": "assets/series/branding/branding-005.png"
+        },
+        {
+          "title": "RepIQ hoodie mockup",
+          "src": "assets/series/branding/branding-002.png"
+        },
+        {
+          "title": "RepIQ lifestyle mockup",
+          "src": "assets/series/branding/branding-004.png"
         }
       ]
     },
