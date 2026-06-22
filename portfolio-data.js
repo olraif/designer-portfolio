@@ -23,6 +23,32 @@ window.PORTFOLIO_DATA = {
       ]
     },
     {
+      "id": "branding",
+      "nav": "Брендинг",
+      "kicker": "Логотипы и брендирование",
+      "title": "Логотипы и брендирование",
+      "intro": "Logo, mockups and branded visual materials.",
+      "format": "wide",
+      "items": [
+        {
+          "title": "RepIQ logo",
+          "src": "assets/series/branding/branding-001.png"
+        },
+        {
+          "title": "RepIQ hoodie mockup",
+          "src": "assets/series/branding/branding-002.png"
+        },
+        {
+          "title": "RepIQ t-shirt mockup",
+          "src": "assets/series/branding/branding-003.png"
+        },
+        {
+          "title": "RepIQ lifestyle mockup",
+          "src": "assets/series/branding/branding-004.png"
+        }
+      ]
+    },
+    {
       "id": "marketplace",
       "nav": "Маркетплейсы",
       "kicker": "Ozon / Wildberries",
