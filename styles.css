@@ -508,6 +508,22 @@ h1 {
   box-shadow: var(--shadow);
 }
 
+.work-link-badge {
+  position: absolute;
+  right: 14px;
+  bottom: 14px;
+  z-index: 2;
+  padding: 8px 12px;
+  color: var(--paper);
+  background: rgba(17, 17, 17, 0.78);
+  border: 1px solid rgba(255, 255, 255, 0.28);
+  border-radius: 999px;
+  font-family: var(--script);
+  font-size: 1.15rem;
+  line-height: 1;
+  pointer-events: none;
+}
+
 .work-slide img,
 .work-slide video {
   width: 100%;

@@ -52,9 +52,12 @@ function renderSeries() {
           ? ""
           : `data-section="${section.id}" data-index="${index}" tabindex="0" role="button" aria-label="Open ${item.title}"`;
 
+      const linkBadge = item.href ? `<span class="work-link-badge">Open demo</span>` : "";
+
       return `
         <article class="work-slide" ${buttonAttrs}>
           ${media}
+          ${linkBadge}
         </article>
       `;
     }).join("");
