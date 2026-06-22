@@ -69,6 +69,21 @@ window.PORTFOLIO_DATA = {
       ]
     },
     {
+      "id": "invitations",
+      "nav": "Приглашения",
+      "kicker": "Digital Invitations",
+      "title": "Digital Invitations",
+      "intro": "Wedding and event landing pages with RSVP forms.",
+      "format": "wide",
+      "items": [
+        {
+          "title": "Wedding invitation website",
+          "src": "assets/series/invitations/wedding-invite-001.jpg",
+          "href": "invitations/wedding/"
+        }
+      ]
+    },
+    {
       "id": "marketplace",
       "nav": "Маркетплейсы",
       "kicker": "Ozon / Wildberries",

@@ -46,9 +46,11 @@ function renderSeries() {
       const media = item.type === "video"
         ? `<video src="${item.src}" controls muted playsinline preload="metadata"></video>`
         : `<img src="${item.src}" alt="${item.title}" loading="lazy">`;
-      const buttonAttrs = item.type === "video"
-        ? ""
-        : `data-section="${section.id}" data-index="${index}" tabindex="0" role="button" aria-label="Open ${item.title}"`;
+      const buttonAttrs = item.href
+        ? `data-href="${item.href}" tabindex="0" role="link" aria-label="Open ${item.title}"`
+        : item.type === "video"
+          ? ""
+          : `data-section="${section.id}" data-index="${index}" tabindex="0" role="button" aria-label="Open ${item.title}"`;
 
       return `
         <article class="work-slide" ${buttonAttrs}>
@@ -183,6 +185,10 @@ document.addEventListener("click", (event) => {
   }
 
   const slide = event.target.closest(".work-slide");
+  if (slide?.dataset.href) {
+    window.open(slide.dataset.href, "_blank", "noopener");
+    return;
+  }
   if (slide && slide.dataset.section) {
     openModal(slide.dataset.section, Number(slide.dataset.index));
   }
@@ -207,9 +213,16 @@ document.addEventListener("click", (event) => {
 
 document.addEventListener("keydown", (event) => {
   const slide = event.target.closest(".work-slide");
-  if (slide && slide.dataset.section && (event.key === "Enter" || event.key === " ")) {
-    event.preventDefault();
-    openModal(slide.dataset.section, Number(slide.dataset.index));
+  if (slide && (event.key === "Enter" || event.key === " ")) {
+    if (slide.dataset.href) {
+      event.preventDefault();
+      window.open(slide.dataset.href, "_blank", "noopener");
+      return;
+    }
+    if (slide.dataset.section) {
+      event.preventDefault();
+      openModal(slide.dataset.section, Number(slide.dataset.index));
+    }
   }
 
   if (!modal.classList.contains("is-open")) return;
