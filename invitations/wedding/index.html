@@ -4,66 +4,71 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Олеся и Вадут - свадебное приглашение</title>
-  <meta name="description" content="Демо сайта-приглашения на свадьбу с RSVP-формой.">
+  <meta name="description" content="Свадебное приглашение с деталями события, программой и RSVP-формой.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <a class="back" href="../../" aria-label="Назад">&#8592;</a>
   <nav class="nav" aria-label="Навигация">
     <a href="#invitation">Приглашение</a>
     <a href="#details">Детали</a>
-    <a href="#timeline">Программа</a>
+    <a href="#program">Программа</a>
     <a href="#rsvp">RSVP</a>
   </nav>
 
   <header class="hero">
-    <div class="hero__image" aria-hidden="true"></div>
-    <div class="hero__shade" aria-hidden="true"></div>
-    <div class="hero__content reveal">
-      <p class="eyebrow">Свадебное приглашение</p>
+    <div class="hero-copy reveal">
+      <p class="eyebrow">Wedding Invitation</p>
       <h1>Олеся <span>&amp;</span> Вадут</h1>
-      <span class="divider"></span>
       <p class="date">6 сентября 2026</p>
-      <p class="place">Москва</p>
-      <a class="button" href="#rsvp">Принять приглашение</a>
+      <p class="lead">Приглашаем вас разделить с нами день, наполненный светом, цветами и тёплыми встречами.</p>
+      <a class="button" href="#rsvp">Подтвердить участие</a>
     </div>
+    <figure class="hero-visual reveal">
+      <img src="assets/invitation-suite-wedding-luxe.png" alt="Свадебный пригласительный набор">
+    </figure>
   </header>
 
   <main>
-    <section class="section paper" id="invitation">
-      <div class="ornament-card reveal">
-        <p class="eyebrow soft">Дорогие гости</p>
-        <h2>Будем счастливы видеть вас рядом</h2>
-        <p>Мы рады сообщить, что 6 сентября 2026 года состоится важное событие нашей жизни - наша свадьба.</p>
-        <p>В этот день мы хотим разделить радость с самыми близкими людьми.</p>
+    <section class="section intro" id="invitation">
+      <div class="intro-card reveal">
+        <p class="eyebrow">Dear guests</p>
+        <h2>Мы будем счастливы видеть вас</h2>
+        <p>В этот особенный день нам хочется собрать самых близких, сохранить красивые моменты и начать новую главу в тёплой атмосфере.</p>
         <p class="signature">С любовью, Олеся и Вадут</p>
       </div>
     </section>
 
-    <section class="section split" id="details">
-      <div class="section-title reveal">
-        <p class="eyebrow soft">Event details</p>
-        <h2>Детали торжества</h2>
-      </div>
-      <div class="detail-grid">
-        <article class="detail-card reveal"><span class="icon">&#9825;</span><h3>Церемония</h3><p class="time">15:00</p><p>Усадьба «Залесье»</p><small>Московская область</small></article>
-        <article class="detail-card reveal"><span class="icon">&#10022;</span><h3>Банкет</h3><p class="time">17:00</p><p>Ресторан «Залесье»</p><small>Территория усадьбы</small></article>
+    <section class="section details" id="details">
+      <div class="section-title reveal"><p class="eyebrow">Celebration</p><h2>Детали торжества</h2></div>
+      <div class="cards">
+        <article class="card reveal"><span>01</span><h3>Церемония</h3><p class="time">15:00</p><p>Усадьба «Залесье»</p></article>
+        <article class="card reveal"><span>02</span><h3>Ужин</h3><p class="time">17:00</p><p>Ресторан у сада</p></article>
+        <article class="card reveal"><span>03</span><h3>Dress code</h3><p class="time">soft</p><p>Кремовый, пудровый, оливковый</p></article>
       </div>
     </section>
 
-    <section class="section timeline" id="timeline">
-      <div class="section-title reveal"><p class="eyebrow soft">Wedding day</p><h2>Программа дня</h2></div>
-      <ol class="steps reveal"><li><time>14:30</time><span>Сбор гостей</span></li><li><time>15:00</time><span>Церемония</span></li><li><time>16:00</time><span>Фотосессия и welcome</span></li><li><time>17:00</time><span>Ужин и поздравления</span></li><li><time>22:00</time><span>Финал вечера</span></li></ol>
+    <section class="gallery section">
+      <div class="section-title reveal"><p class="eyebrow">Invitation suite</p><h2>Комплект для гостей</h2></div>
+      <div class="gallery-grid reveal">
+        <img src="assets/invitation-suite-wedding-luxe.png" alt="Свадебная полиграфия">
+        <img src="assets/invitation-suite-birthday.png" alt="Пригласительный набор">
+        <img src="assets/invitation-suite-jazz.png" alt="Джазовый вечер">
+      </div>
     </section>
 
-    <section class="section dress"><div class="section-title reveal"><p class="eyebrow soft">Dress code</p><h2>Теплая осенняя палитра</h2><p>Мягкие природные оттенки: кремовый, оливковый, терракота, шоколадный.</p></div><div class="palette reveal"><span style="--c:#FAF6F0"></span><span style="--c:#C9A87C"></span><span style="--c:#B8704B"></span><span style="--c:#7A6B4F"></span><span style="--c:#3D2B1F"></span></div></section>
+    <section class="section program" id="program">
+      <div class="section-title reveal"><p class="eyebrow">Wedding day</p><h2>Программа дня</h2></div>
+      <ol class="steps reveal"><li><time>14:30</time><span>Сбор гостей</span></li><li><time>15:00</time><span>Церемония</span></li><li><time>16:00</time><span>Фотосессия</span></li><li><time>17:00</time><span>Ужин и поздравления</span></li><li><time>22:00</time><span>Финал вечера</span></li></ol>
+    </section>
 
-    <section class="section rsvp" id="rsvp"><div class="form-card reveal"><p class="eyebrow soft">RSVP</p><h2>Подтвердите присутствие</h2><p>В реальном проекте ответы можно отправлять в Google Sheets, Telegram или CRM.</p><form id="rsvpForm"><label>Ваше имя<input name="name" required placeholder="Иван и Мария"></label><label>Вы сможете прийти?<select name="attending" required><option value="">Выберите вариант</option><option>Да, с радостью</option><option>К сожалению, нет</option></select></label><label>Комментарий<textarea name="comment" rows="3" placeholder="Пожелания, питание, вопросы"></textarea></label><button type="submit">Отправить</button></form><p class="success" id="success" hidden>Спасибо! Ответ сохранен в демо-режиме.</p></div></section>
+    <section class="section rsvp" id="rsvp">
+      <div class="form-card reveal"><p class="eyebrow">RSVP</p><h2>Подтвердите присутствие</h2><form id="rsvpForm"><label>Имя<input name="name" required placeholder="Иван и Мария"></label><label>Вы сможете прийти?<select name="attending" required><option value="">Выберите</option><option>Да, с радостью</option><option>К сожалению, нет</option></select></label><label>Комментарий<textarea rows="3" placeholder="Пожелания или детали"></textarea></label><button type="submit">Отправить</button></form><p class="success" id="success" hidden>Спасибо! Мы сохранили ваш ответ.</p></div>
+    </section>
   </main>
-
-  <footer class="footer"><p>Демо сайта-приглашения для портфолио Vizrum</p><a href="../../">Вернуться в портфолио</a></footer>
   <script src="script.js"></script>
 </body>
 </html>
