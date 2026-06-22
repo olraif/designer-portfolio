@@ -25,8 +25,8 @@ window.PORTFOLIO_DATA = {
     {
       "id": "branding",
       "nav": "Брендинг",
-      "kicker": "Логотипы и брендирование",
-      "title": "Логотипы и брендирование",
+      "kicker": "Logos & Branding",
+      "title": "Logos & Branding",
       "intro": "Logo, mockups and branded visual materials.",
       "format": "wide",
       "items": [
@@ -45,6 +45,22 @@ window.PORTFOLIO_DATA = {
         {
           "title": "RepIQ lifestyle mockup",
           "src": "assets/series/branding/branding-004.png"
+        },
+        {
+          "title": "RepIQ bottle mockup",
+          "src": "assets/series/branding/branding-005.png"
+        },
+        {
+          "title": "RepIQ backpack mockup",
+          "src": "assets/series/branding/branding-006.png"
+        },
+        {
+          "title": "RepIQ mug mockup",
+          "src": "assets/series/branding/branding-007.png"
+        },
+        {
+          "title": "Branding collage",
+          "src": "assets/series/branding/branding-008.png"
         }
       ]
     },
