@@ -315,6 +315,68 @@ window.PORTFOLIO_DATA = {
       ]
     },
     {
+      "id": "masterplan",
+      "nav": "Генплан",
+      "kicker": "Обзорный генплан",
+      "title": "Генплан и инвестиционный проект",
+      "intro": "Обзорные схемы, веломаршруты, инфраструктура и презентационные листы для инвестпроекта.",
+      "format": "wide",
+      "items": [
+        {
+          "title": "Генплан / обзорная схема",
+          "src": "assets/series/masterplan/masterplan-001.png"
+        },
+        {
+          "title": "Генплан велосипедной дорожки",
+          "src": "assets/series/masterplan/masterplan-002.png"
+        },
+        {
+          "title": "Общий обзорный план",
+          "src": "assets/series/masterplan/masterplan-003.png"
+        },
+        {
+          "title": "Велодорожка и навигация",
+          "src": "assets/series/masterplan/masterplan-005.png"
+        },
+        {
+          "title": "Велодорожка и сервисная зона",
+          "src": "assets/series/masterplan/masterplan-004.png"
+        },
+        {
+          "title": "Баня и зона отдыха",
+          "src": "assets/series/masterplan/masterplan-008.png"
+        },
+        {
+          "title": "Кафе на территории",
+          "src": "assets/series/masterplan/masterplan-006.png"
+        },
+        {
+          "title": "Спальня гостевого дома",
+          "src": "assets/series/masterplan/masterplan-007.png"
+        },
+        {
+          "title": "Инвестиционный проект развития",
+          "src": "assets/series/masterplan/masterplan-009.png"
+        },
+        {
+          "title": "Состав проекта / план освоения",
+          "src": "assets/series/masterplan/masterplan-010.png"
+        },
+        {
+          "title": "Альбом визуализаций",
+          "src": "assets/series/masterplan/masterplan-011.png"
+        },
+        {
+          "title": "Инвестиционная смета / CAPEX",
+          "src": "assets/series/masterplan/masterplan-012.png"
+        },
+        {
+          "title": "Этапы реализации / финансовая модель",
+          "src": "assets/series/masterplan/masterplan-013.png"
+        }
+      ]
+    },
+    {
       "id": "fashion",
       "nav": "Одежда",
       "kicker": "Fashion visuals",
