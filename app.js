@@ -62,6 +62,15 @@ function renderSeries() {
       `;
     }).join("");
 
+    const carousel = section.items.length ? `
+        <div class="carousel-shell">
+          <button class="side-arrow side-prev" type="button" data-scroll="${section.id}" data-direction="-1" aria-label="Back">&#8249;</button>
+          <div class="work-rail" data-rail="${section.id}">
+            ${items}
+          </div>
+          <button class="side-arrow side-next" type="button" data-scroll="${section.id}" data-direction="1" aria-label="Forward">&#8250;</button>
+        </div>` : "";
+
     return `
       <section class="series-section" id="${section.id}" data-format="${section.format}">
         <div class="section-top">
@@ -69,13 +78,7 @@ function renderSeries() {
             <p class="eyebrow">${section.kicker}</p>
           </div>
         </div>
-        <div class="carousel-shell">
-          <button class="side-arrow side-prev" type="button" data-scroll="${section.id}" data-direction="-1" aria-label="Back">&#8249;</button>
-          <div class="work-rail" data-rail="${section.id}">
-            ${items}
-          </div>
-          <button class="side-arrow side-next" type="button" data-scroll="${section.id}" data-direction="1" aria-label="Forward">&#8250;</button>
-        </div>
+        ${carousel}
       </section>
     `;
   }).join("");

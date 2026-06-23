@@ -75,34 +75,7 @@ window.PORTFOLIO_DATA = {
       "title": "Digital Invitations",
       "intro": "Wedding and event landing pages with RSVP forms.",
       "format": "wide",
-      "items": [
-        {
-          "title": "Wedding invitation landing page",
-          "src": "assets/series/invitations/invitation-website-cover-wedding.png",
-          "href": "invitations/wedding/"
-        },
-        {
-          "title": "Event invitation landing page",
-          "src": "assets/series/invitations/invitation-website-cover-event.png",
-          "href": "invitations/event/"
-        },
-        {
-          "title": "Wedding invitation suite",
-          "src": "assets/series/invitations/invitation-suite-wedding-luxe.png"
-        },
-        {
-          "title": "Jazz event invitation suite",
-          "src": "assets/series/invitations/invitation-suite-jazz.png"
-        },
-        {
-          "title": "Birthday invitation suite",
-          "src": "assets/series/invitations/invitation-suite-birthday.png"
-        },
-        {
-          "title": "Business event invitation suite",
-          "src": "assets/series/invitations/invitation-suite-business.png"
-        }
-      ]
+      "items": []
     },
     {
       "id": "marketplace",
