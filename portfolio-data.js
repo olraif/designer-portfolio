@@ -18,7 +18,8 @@ window.PORTFOLIO_DATA = {
         {
           "title": "Motion-\u0440\u043e\u043b\u0438\u043a \u0441\u043f\u0430\u043b\u044c\u043d\u0438 \u0442\u0443\u0440\u0431\u0430\u0437\u044b",
           "src": "assets/videos/zuyachka-bedroom-motion-visual.mp4",
-          "type": "video"
+          "type": "video",
+          "poster": "assets/videos/zuyachka-bedroom-motion-poster.jpg"
         },
         {
           "title": "Motion-\u0440\u043e\u043b\u0438\u043a \u0438\u043d\u0442\u0435\u0440\u044c\u0435\u0440\u0430",

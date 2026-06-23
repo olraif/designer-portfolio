@@ -43,8 +43,9 @@ function renderNav() {
 function renderSeries() {
   seriesRoot.innerHTML = data.series.map((section) => {
     const items = section.items.map((item, index) => {
+      const videoPoster = item.poster ? ` poster="${item.poster}"` : "";
       const media = item.type === "video"
-        ? `<video src="${item.src}" controls muted playsinline preload="metadata"></video>`
+        ? `<video src="${item.src}" controls playsinline preload="metadata"${videoPoster}></video>`
         : `<img src="${item.src}" alt="${item.title}" loading="lazy">`;
       const buttonAttrs = item.href
         ? `data-href="${item.href}" tabindex="0" role="link" aria-label="Open ${item.title}"`
