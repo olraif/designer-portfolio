@@ -75,6 +75,8 @@ window.PORTFOLIO_DATA = {
       "title": "Digital Invitations",
       "intro": "Wedding and event landing pages with RSVP forms.",
       "format": "wide",
+      "placeholderTitle": "Сайты-приглашения",
+      "placeholderText": "Раздел готовится. Скоро здесь появятся сильные работы.",
       "items": []
     },
     {

@@ -456,6 +456,36 @@ h1 {
   grid-auto-columns: minmax(680px, 72%);
 }
 
+
+.empty-showcase {
+  min-height: 240px;
+  display: grid;
+  place-items: center;
+  gap: 12px;
+  padding: 48px 28px;
+  border: 1px solid rgba(142, 27, 26, .18);
+  background:
+    linear-gradient(135deg, rgba(255, 255, 255, .48), rgba(255, 248, 226, .34)),
+    radial-gradient(circle at 18% 18%, rgba(142, 27, 26, .09), transparent 36%);
+  box-shadow: 0 22px 60px rgba(89, 64, 43, .08);
+  text-align: center;
+}
+
+.empty-showcase span {
+  font-family: var(--script);
+  font-size: clamp(2rem, 4vw, 4rem);
+  color: var(--red);
+  line-height: .95;
+}
+
+.empty-showcase p {
+  max-width: 560px;
+  margin: 0;
+  color: var(--muted);
+  font-size: .95rem;
+  letter-spacing: .04em;
+}
+
 .carousel-shell {
   position: relative;
 }

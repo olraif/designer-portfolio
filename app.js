@@ -69,7 +69,11 @@ function renderSeries() {
             ${items}
           </div>
           <button class="side-arrow side-next" type="button" data-scroll="${section.id}" data-direction="1" aria-label="Forward">&#8250;</button>
-        </div>` : "";
+        </div>` : `
+        <div class="empty-showcase">
+          <span>${section.placeholderTitle || "Coming soon"}</span>
+          <p>${section.placeholderText || "This section is being prepared."}</p>
+        </div>`;
 
     return `
       <section class="series-section" id="${section.id}" data-format="${section.format}">
