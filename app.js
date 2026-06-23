@@ -1,4 +1,4 @@
-const data = window.PORTFOLIO_DATA || { series: [], presentations: [], heroImages: [] };
+﻿const data = window.PORTFOLIO_DATA || { series: [], presentations: [], heroImages: [] };
 
 const heroStrip = document.querySelector("#heroStrip");
 const seriesNav = document.querySelector("#seriesNav");
@@ -44,8 +44,9 @@ function renderSeries() {
   seriesRoot.innerHTML = data.series.map((section) => {
     const items = section.items.map((item, index) => {
       const videoPoster = item.poster ? ` poster="${item.poster}"` : "";
+      const videoPreload = item.poster ? "none" : "metadata";
       const media = item.type === "video"
-        ? `<video src="${item.src}" controls playsinline preload="metadata"${videoPoster}></video>`
+        ? `<video src="${item.src}" controls playsinline preload="${videoPreload}"${videoPoster}></video>`
         : `<img src="${item.src}" alt="${item.title}" loading="lazy">`;
       const buttonAttrs = item.href
         ? `data-href="${item.href}" tabindex="0" role="link" aria-label="Open ${item.title}"`
@@ -53,7 +54,7 @@ function renderSeries() {
           ? ""
           : `data-section="${section.id}" data-index="${index}" tabindex="0" role="button" aria-label="Open ${item.title}"`;
 
-      const linkBadge = item.href ? `<span class="work-link-badge">Смотреть сайт</span>` : "";
+      const linkBadge = item.href ? `<span class="work-link-badge">РЎРјРѕС‚СЂРµС‚СЊ СЃР°Р№С‚</span>` : "";
 
       return `
         <article class="work-slide" ${buttonAttrs}>
@@ -154,7 +155,7 @@ function setModalImage(index) {
   modalImage.src = item.src;
   modalImage.alt = item.title;
   modalTitle.textContent = item.title;
-  modalKicker.textContent = `${activeKicker} / ${activeIndex + 1} из ${activeGallery.length}`;
+  modalKicker.textContent = `${activeKicker} / ${activeIndex + 1} РёР· ${activeGallery.length}`;
 }
 
 function closeModal() {
@@ -250,4 +251,3 @@ renderPresentations();
 settleHashScroll();
 window.addEventListener("load", settleHashScroll);
 window.addEventListener("hashchange", settleHashScroll);
-
