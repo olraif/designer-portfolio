@@ -88,6 +88,11 @@ window.PORTFOLIO_DATA = {
       "format": "square",
       "items": [
         {
+          "title": "кукла с большими глазами",
+          "src": "assets/series/marketplace/market-046.png",
+          "original": "C:\\Users\\Олеся\\Downloads\\кукла .png"
+        },
+        {
           "title": "макраме интерьер",
           "src": "assets/series/marketplace/market-011.jpg",
           "original": "C:\\Users\\Олеся\\Desktop\\референс\\макраме интерьер.jpeg"
@@ -96,6 +101,21 @@ window.PORTFOLIO_DATA = {
           "title": "макраме",
           "src": "assets/series/marketplace/market-014.jpg",
           "original": "C:\\Users\\Олеся\\Desktop\\референс\\макраме.png"
+        },
+        {
+          "title": "решётки в бампер комплект",
+          "src": "assets/series/marketplace/market-047.png",
+          "original": "C:\\Users\\Олеся\\Downloads\\ChatGPT Image 23 июн. 2026 г., 18_04_46.png"
+        },
+        {
+          "title": "решётки в бампер до после",
+          "src": "assets/series/marketplace/market-048.png",
+          "original": "C:\\Users\\Олеся\\Downloads\\ChatGPT Image 23 июн. 2026 г., 18_04_42.png"
+        },
+        {
+          "title": "решётки в бампер схема",
+          "src": "assets/series/marketplace/market-049.png",
+          "original": "C:\\Users\\Олеся\\Downloads\\ChatGPT Image 23 июн. 2026 г., 18_04_39.png"
         },
         {
           "title": "карточки товаров",
