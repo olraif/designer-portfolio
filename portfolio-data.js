@@ -19,6 +19,18 @@ window.PORTFOLIO_DATA = {
           "title": "Motion-\u0440\u043e\u043b\u0438\u043a \u0438\u043d\u0442\u0435\u0440\u044c\u0435\u0440\u0430",
           "src": "assets/videos/bedroom-office-motion-visual.mp4",
           "type": "video"
+        },
+        {
+          "title": "AI-story vertical",
+          "src": "assets/videos/ai-story-pig-vertical.mp4",
+          "type": "video",
+          "poster": "assets/videos/ai-story-pig-vertical-poster.jpg"
+        },
+        {
+          "title": "AI-story wide",
+          "src": "assets/videos/ai-story-pig-wide.mp4",
+          "type": "video",
+          "poster": "assets/videos/ai-story-pig-wide-poster.jpg"
         }
       ]
     },
