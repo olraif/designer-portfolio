@@ -24,7 +24,8 @@ window.PORTFOLIO_DATA = {
           "title": "AI-story vertical",
           "src": "assets/videos/ai-story-pig-vertical.mp4",
           "type": "video",
-          "poster": "assets/videos/ai-story-pig-vertical-poster.jpg"
+          "poster": "assets/videos/ai-story-pig-vertical-poster.jpg",
+          "orientation": "portrait"
         },
         {
           "title": "AI-story wide",

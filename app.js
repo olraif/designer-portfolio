@@ -1,4 +1,4 @@
-﻿const data = window.PORTFOLIO_DATA || { series: [], presentations: [], heroImages: [] };
+const data = window.PORTFOLIO_DATA || { series: [], presentations: [], heroImages: [] };
 
 const heroStrip = document.querySelector("#heroStrip");
 const seriesNav = document.querySelector("#seriesNav");
@@ -56,8 +56,10 @@ function renderSeries() {
 
       const linkBadge = item.href ? `<span class="work-link-badge">РЎРјРѕС‚СЂРµС‚СЊ СЃР°Р№С‚</span>` : "";
 
+      const slideClass = ["work-slide", item.orientation === "portrait" ? "is-portrait-video" : ""].filter(Boolean).join(" ");
+
       return `
-        <article class="work-slide" ${buttonAttrs}>
+        <article class="${slideClass}" ${buttonAttrs}>
           ${media}
           ${linkBadge}
         </article>

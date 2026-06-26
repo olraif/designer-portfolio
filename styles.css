@@ -576,6 +576,17 @@ h1 {
   aspect-ratio: 16 / 9;
 }
 
+.work-slide.is-portrait-video {
+  justify-self: center;
+  width: min(360px, 100%);
+}
+
+.series-section[data-format="wide"] .work-slide.is-portrait-video video,
+.work-slide.is-portrait-video video {
+  aspect-ratio: 9 / 16;
+  object-fit: cover;
+  background: #111;
+}
 .work-caption {
   display: flex;
   align-items: center;
