@@ -8,24 +8,34 @@ window.PORTFOLIO_DATA = {
   ],
   "series": [
     {
-      "id": "motion-series",
-      "nav": "AI-\u0432\u0438\u0434\u0435\u043e",
-      "kicker": "Motion visual / AI-\u0432\u0438\u0434\u0435\u043e",
-      "title": "\u0416\u0438\u0432\u043e\u0439 \u0432\u0438\u0437\u0443\u0430\u043b",
-      "intro": "MP4 visual for product cards, interiors and presentations.",
-      "format": "wide",
+      "id": "vertical-video",
+      "nav": "\u0412\u0435\u0440\u0442\u0438\u043a\u0430\u043b\u044c\u043d\u043e\u0435 \u0432\u0438\u0434\u0435\u043e",
+      "kicker": "Vertical AI-video",
+      "title": "\u0412\u0435\u0440\u0442\u0438\u043a\u0430\u043b\u044c\u043d\u043e\u0435 \u0432\u0438\u0434\u0435\u043e",
+      "intro": "Short-form AI stories for mobile screens and social media.",
+      "format": "portrait",
       "items": [
-        {
-          "title": "Motion-\u0440\u043e\u043b\u0438\u043a \u0438\u043d\u0442\u0435\u0440\u044c\u0435\u0440\u0430",
-          "src": "assets/videos/bedroom-office-motion-visual.mp4",
-          "type": "video"
-        },
         {
           "title": "AI-story vertical",
           "src": "assets/videos/ai-story-pig-vertical.mp4",
           "type": "video",
           "poster": "assets/videos/ai-story-pig-vertical-poster.jpg",
           "orientation": "portrait"
+        }
+      ]
+    },
+    {
+      "id": "horizontal-video",
+      "nav": "\u0413\u043e\u0440\u0438\u0437\u043e\u043d\u0442\u0430\u043b\u044c\u043d\u043e\u0435 \u0432\u0438\u0434\u0435\u043e",
+      "kicker": "Horizontal motion / AI-video",
+      "title": "\u0413\u043e\u0440\u0438\u0437\u043e\u043d\u0442\u0430\u043b\u044c\u043d\u043e\u0435 \u0432\u0438\u0434\u0435\u043e",
+      "intro": "Wide motion visuals for products, interiors and presentations.",
+      "format": "wide",
+      "items": [
+        {
+          "title": "Motion-\u0440\u043e\u043b\u0438\u043a \u0438\u043d\u0442\u0435\u0440\u044c\u0435\u0440\u0430",
+          "src": "assets/videos/bedroom-office-motion-visual.mp4",
+          "type": "video"
         },
         {
           "title": "AI-story wide",
