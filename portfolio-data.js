@@ -493,6 +493,31 @@ window.PORTFOLIO_DATA = {
       "format": "portrait",
       "items": [
         {
+          "title": "Мини-курс: от внутреннего напряжения к доверию себе",
+          "src": "assets/series/course-covers/self-trust-mini-course-01.png",
+          "original": "C:\\Users\\Олеся\\Downloads\\ChatGPT Image 9 июл. 2026 г., 13_52_59 (1).png"
+        },
+        {
+          "title": "Мини-курс: о курсе",
+          "src": "assets/series/course-covers/self-trust-mini-course-02.png",
+          "original": "C:\\Users\\Олеся\\Downloads\\ChatGPT Image 9 июл. 2026 г., 13_53_00 (2).png"
+        },
+        {
+          "title": "Мини-курс: структура курса",
+          "src": "assets/series/course-covers/self-trust-mini-course-03.png",
+          "original": "C:\\Users\\Олеся\\Downloads\\ChatGPT Image 9 июл. 2026 г., 13_53_01 (3).png"
+        },
+        {
+          "title": "Мини-курс: как проходит курс",
+          "src": "assets/series/course-covers/self-trust-mini-course-04.png",
+          "original": "C:\\Users\\Олеся\\Downloads\\ChatGPT Image 9 июл. 2026 г., 13_53_02 (4).png"
+        },
+        {
+          "title": "Мини-курс: что получает участник",
+          "src": "assets/series/course-covers/self-trust-mini-course-05.png",
+          "original": "C:\\Users\\Олеся\\Downloads\\ChatGPT Image 9 июл. 2026 г., 13_53_04 (5).png"
+        },
+        {
           "title": "карточка репеьтитор",
           "src": "assets/series/apps/app-002.jpg",
           "original": "C:\\Users\\Олеся\\Desktop\\референс\\карточка репеьтитор.png"
