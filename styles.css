@@ -1071,11 +1071,12 @@ h1 {
 }
 
 .seo-services {
-  padding: 54px 24px 22px;
-  border-top: 1px solid rgba(167, 109, 25, 0.18);
+  max-width: 1180px;
+  margin: 18px auto 6px;
+  padding: 0 24px 20px;
+  opacity: 0.72;
 }
 
-.seo-services h2,
 .service-hero h1,
 .service-section h2 {
   margin: 0;
@@ -1085,20 +1086,27 @@ h1 {
   letter-spacing: 0;
 }
 
-.seo-services h2 {
-  max-width: 920px;
-  font-size: clamp(2.4rem, 5.2vw, 5.4rem);
-  line-height: 0.95;
-}
-
 .seo-service-links {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
-  margin-top: 22px;
+  gap: 7px;
+  margin-top: 8px;
 }
 
-.seo-service-links a,
+.seo-service-links a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 26px;
+  padding: 4px 10px;
+  border: 1px solid rgba(211, 196, 157, 0.75);
+  border-radius: 999px;
+  background: rgba(255, 250, 240, 0.42);
+  color: var(--muted);
+  font-family: var(--serif);
+  font-size: 0.78rem;
+  box-shadow: none;
+}
+
 .service-cta a,
 .service-back {
   display: inline-flex;
